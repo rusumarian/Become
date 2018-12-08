@@ -7,5 +7,5 @@
 //})
 //  mocha.run();
 describe("item function", () => {
-    interface("should work like a charm");
+    it("should work like a charm");
 })
