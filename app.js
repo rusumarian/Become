@@ -6,7 +6,7 @@ function item () {
     const item = document.getElementById("input").value;
     const ul = document.getElementById("list");
     const li = document.createElement("li");
-    li.appendChild(document.createTextNode("-"+item));
+    li.appendChild(document.createTextNode("- "+item));
     ul.appendChild(li);
     document.getElementById("input").value="";
     li.onclick=removeItem;
